@@ -1,0 +1,38 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly ProgaLaba2_MainTask, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Shape: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Area(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Perimeter(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Print(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Serialize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class Circle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Shape
+    Void .ctor(Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Area(): PrivateScope, Public, Virtual, HideBySig
+    Perimeter(): PrivateScope, Public, Virtual, HideBySig
+    Print(): PrivateScope, Public, Virtual, HideBySig
+    Serialize(): PrivateScope, Public, Virtual, HideBySig
+Class Rectangle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Shape
+    Void .ctor(Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Area(): PrivateScope, Public, Virtual, HideBySig
+    Perimeter(): PrivateScope, Public, Virtual, HideBySig
+    Print(): PrivateScope, Public, Virtual, HideBySig
+    Serialize(): PrivateScope, Public, Virtual, HideBySig
+Class Triangle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Shape
+    Void .ctor(Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Perimeter(): PrivateScope, Public, Virtual, HideBySig
+    Area(): PrivateScope, Public, Virtual, HideBySig
+    Print(): PrivateScope, Public, Virtual, HideBySig
+    Serialize(): PrivateScope, Public, Virtual, HideBySig

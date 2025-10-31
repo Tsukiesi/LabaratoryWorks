@@ -1,0 +1,3 @@
+D:\Codes\ProgaLaba1\ProgaLaba1\x64\Debug\ProgaLaba1.vcxproj.AssemblyReference.cache
+D:\Codes\ProgaLaba1\ProgaLaba1\x64\Debug\ProgaLaba1.MyForm.resources
+D:\Codes\ProgaLaba1\ProgaLaba1\x64\Debug\ProgaLaba1.vcxproj.GenerateResource.cache

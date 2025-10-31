@@ -1,0 +1,17 @@
+﻿  MyForm.cpp
+  main.cpp
+D:\Codes\ProgaLaba1\ProgaLaba1\MyForm.h(167,10): warning C4101: inmass: неиспользованная локальная переменная
+  (компиляция исходного файла "MyForm.cpp")
+  
+D:\Codes\ProgaLaba1\ProgaLaba1\MyForm.h(167,28): warning C4101: outmass: неиспользованная локальная переменная
+  (компиляция исходного файла "MyForm.cpp")
+  
+D:\Codes\ProgaLaba1\ProgaLaba1\MyForm.h(167,10): warning C4101: inmass: неиспользованная локальная переменная
+  (компиляция исходного файла "main.cpp")
+  
+D:\Codes\ProgaLaba1\ProgaLaba1\MyForm.h(167,28): warning C4101: outmass: неиспользованная локальная переменная
+  (компиляция исходного файла "main.cpp")
+  
+  Создание кода...
+  main.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  ProgaLaba1.vcxproj -> D:\Codes\ProgaLaba1\x64\Debug\ProgaLaba1.exe
